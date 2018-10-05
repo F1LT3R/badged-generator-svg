@@ -1,0 +1,61 @@
+{
+	"name": "badged-generator-svg",
+	"main": "index",
+	"version": "1.0.0",
+	"description": "Generate custom SVG badges for your README",
+	"license": "MIT",
+	"repository": "f1lt3r/badged-generator-svg",
+	"author": {
+		"name": "F1LT3R",
+		"email": "al@pwn.io",
+		"url": "f1lt3r.io"
+	},
+	"scripts": {
+		"test": "xo && yarn run cover",
+		"unit": "ava",
+		"watch": "ava --watch",
+		"cover": "nyc --reporter=lcov --reporter=html --reporter=text ava *.test.js",
+		"coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls -v"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "yarn test"
+		}
+	},
+	"files": [
+		"index.js",
+		"badge-template.svg",
+		"icon-template.svg",
+		"verdana.json"
+	],
+	"keywords": [],
+	"dependencies": {
+	},
+	"devDependencies": {
+		"ava": "^0.25.0",
+		"coveralls": "^3.0.2",
+		"husky": "^1.1.0",
+		"nyc": "^13.0.1",
+		"xo": "^0.23.0"
+	},
+	"nyc": {
+		"reporter": [
+			"lcov",
+			"text"
+		]
+	},
+	"xo": {
+		"esnext": true,
+		"semicolon": true,
+		"globals": [
+			"__dirname"
+		],
+		"rules": {
+			"no-console": 1,
+			"space-before-function-paren": 0
+		}
+	},
+	"ava": {
+		"failFast": true
+	}
+}

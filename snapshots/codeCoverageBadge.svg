@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg height="28px" viewBox="0 0 1672.08236 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>100% Code Coverage</title>
+    <g shape-rendering="crispEdges">
+        <rect fill="#555555" x="0" y="0" width="1061.06648" height="256"></rect>
+        <rect fill="#97CA00" x="1061.06648" y="0" width="611.0158800000002" height="256"></rect>
+        <image xmlns="http://www.w3.org/2000/svg" x="80" y="64" width="128" height="128" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgdmlld0JveD0iMCAwIDQwIDQwIj4NCjxwYXRoIGZpbGw9IiNkZGQiIGQ9Ik0yMCAwYzExIDAgMjAgOSAyMCAyMHMtOSAyMC0yMCAyMFMwIDMxIDAgMjAgOSAwIDIwIDB6bTQuOSAyMy45YzIuMi0yLjggMS45LTYuOC0uOS04LjktMi43LTIuMS02LjctMS42LTkgMS4yLTIuMiAyLjgtMS45IDYuOC45IDguOSAyLjggMi4xIDYuOCAxLjYgOS0xLjJ6bS0xMC43IDEzYzEuMi41IDMuOCAxIDUuMSAxTDI4IDI1LjNjMi44LTQuMiAyLjEtOS45LTEuOC0xMy0zLjUtMi44LTguNC0yLjctMTEuOSAwTDIuMiAyMS42Yy4zIDMuMiAxLjIgNC44IDEuMiA0LjlsNi45LTcuNWMtLjUgMy4zLjcgNi43IDMuNSA4LjggMi40IDEuOSA1LjMgMi40IDguMSAxLjhsLTcuNyA3LjN6Ii8+DQo8L3N2Zz4="/>
+        
+        <text font-family="Verdana"
+            font-weight="normal"
+            textLength="657.06648"
+            font-size="98"
+            fill="#FFFFFF"
+            text-anchor="middle"
+            x="610.53324"
+            y="164">COVERAGE</text>
+
+        <text font-family="Verdana"
+            font-weight="bold"
+            textLength="367.0158800000001"
+            font-size="98"
+            fill="#FFFFFF"
+            text-anchor="middle"
+            x="1366.57442"
+            y="164">100%</text>
+    </g>
+</svg>
